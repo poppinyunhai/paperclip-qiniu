@@ -16,5 +16,6 @@ Gem::Specification.new do |gem|
   gem.version       = Paperclip::Qiniu::VERSION
   gem.add_dependency 'paperclip'
   gem.add_dependency 'qiniu-rs', '~> 3.0'
+  gem.add_dependency 'qiniu', '~> 6.3.1'
   gem.add_development_dependency 'rspec'
 end

@@ -1,5 +1,5 @@
 require 'paperclip-qiniu/exceptions'
-
+require 'qiniu'
 module Paperclip
   module Storage
     module Qiniu
